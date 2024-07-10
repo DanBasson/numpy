@@ -7,3 +7,4 @@ pickle5; python_version == '3.6' and platform_python_implementation != 'PyPy'
 nose
 # for numpy.random.test.test_extending
 cffi
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
